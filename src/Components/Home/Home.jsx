@@ -1,14 +1,14 @@
-import React,{useState,useEffect} from 'react'
-import { Navigation } from './Navigation'
-import { Banner } from '../../Carousel/Carousel'
-import { bannerData } from '../../Constants/Data'
+import React from 'react';
+import { Navigation } from './Navigation';
+import { Banner } from '../../Carousel/Carousel';
+import { bannerData } from '../../Constants/Data';
 import {products} from '../../Constants/Data';
-import {  Box, styled } from '@mui/material'
-import { FirstSlide } from '../../Carousel/FirstSlide'
-// import { SingleAd } from '../../Carousel/SingleAd';
+import {  Box, styled } from '@mui/material';
+import { FirstSlide } from '../../Carousel/FirstSlide';
+
 import { MidSlide } from '../../Carousel/MidSlide';
 // import { BannerAd } from '../../Carousel/BannerAd';
-// import { LastCarousel } from '../../Carousel/LastCarousel';
+
 
 const BannerContainer = styled(Box)`
 padding : 2px 10px;
@@ -19,7 +19,7 @@ const NavContainer = styled(Box)`
 `;
 export const Home = () => {
 
-    //  console.log('prod', prod)
+
   return (
     <>
 
@@ -33,13 +33,12 @@ export const Home = () => {
       </BannerContainer>
       <BannerContainer>
       <MidSlide products={products} title='Deal of the Day'timer={true} />
-      {/* <FirstSlide products={products} title='Discount for you'timer={false} /> */}
+      
       </BannerContainer>
     
       
      
-      {/* <LastCarousel prods={prod} title ='Weekend Special' timer={false} /> */}
-      {/* <SingleAd/> */}
+      
       <BannerContainer>      
       <FirstSlide products={products} title='Discount for you'timer={false} />
       </BannerContainer>
@@ -50,13 +49,9 @@ export const Home = () => {
       <FirstSlide products={products} title='Discount for you'timer={false} />
       </BannerContainer>
       
-      {/* <BannerContainer>
-      <BannerAd/>
-      </BannerContainer> */}
-     
+   
 
 
-      {/* <LastCarousel prods={prod} title ='Weekend Special' timer={false} /> */}
      
     </>
 

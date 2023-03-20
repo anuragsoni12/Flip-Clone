@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
-import { AppBar, Box, Toolbar, Typography, styled } from '@mui/material'
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Button from '@mui/material/Button';
+import React, { useState } from 'react';
+import {  Box, styled } from '@mui/material';
+
 
 import { Login } from './Login';
 
@@ -35,26 +34,12 @@ export const CustomButton = () => {
         <CustomBtn  onClick={()=> setOpen(true)} >
             Login
         </CustomBtn>
-        {/* <CustomBtn variant="contained" onClick={()=> setOpen(true)} >
-         
-            Login
-        </CustomBtn> */}
+ 
 
         </Box>
         <Login open={open} setOpen={setOpen}/>
         
-        {/* <Box>
-            <Typography>Become a Seller</Typography>
-        </Box> */}
-        {/* <Box>
-            More
-        </Box> */}
-        {/* <ShoppingCartBox >
-            <ShoppingCartIcon />
-            <Typography>
-                Cart
-            </Typography>
-        </ShoppingCartBox> */}
+       
     </BoxWraper>
   )
 }

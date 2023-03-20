@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react';
 import Carousel from 'react-multi-carousel';
 import Countdown from 'react-countdown';
 import {Link} from 'react-router-dom';
 import 'react-multi-carousel/lib/styles.css';
-import { AppBar, Box, Toolbar, Typography, Button,Divider, styled } from '@mui/material'
+import {  Box,  Typography, Button,Divider, styled } from '@mui/material'
 
 const responsive = {
  
@@ -65,17 +65,7 @@ const ProductText = styled(Typography)`
     margin-top : 4 style={{}} px;
 `;
 export const LastCarousel = ({prods , timer , title}) => {
-    // const [prod , setProd] = useState();
-    // const callApi = async () => {
-    //    const response = await fetch("https://fakestoreapi.com/products")
-    //    const data = await response.json();
-    //     console.log(data);
-    //     setProd(data);
-    //    }
-    
-    //    useEffect(()=>{
-    //     callApi();
-    //    },[])
+ 
     console.log('prod-->', prods)
        const timerURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/timer_a73398.svg';
        const renderer = ({ hours, minutes, seconds, completed }) => {

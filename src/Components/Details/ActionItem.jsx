@@ -1,6 +1,6 @@
-import React from 'react'
-import { AppBar, Box, Toolbar, Typography, Button,Divider, styled, Card } from '@mui/material'
-import { products } from '../../Constants/Data'
+import React from 'react';
+import {  Box,  Button, styled,  } from '@mui/material';
+
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 

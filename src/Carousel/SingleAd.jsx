@@ -1,6 +1,6 @@
 import React from 'react'
 import { adURL } from '../Constants/Data'
-import {  Box,  styled  ,Grid} from '@mui/material'
+import {   styled  ,Grid} from '@mui/material'
 
 const Wraper = styled(Grid)`
     margin-top : 10px;

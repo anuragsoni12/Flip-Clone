@@ -1,6 +1,6 @@
-import React from 'react'
-import {  Box,  styled  ,Grid} from '@mui/material'
-import {imageURL} from '../Constants/Data'
+import React from 'react';
+import {    styled  ,Grid} from '@mui/material';
+import {imageURL} from '../Constants/Data';
 const Wraper = styled(Grid)`
     margin-top : 10px;
     margin-bottom : 10px;

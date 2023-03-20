@@ -3,7 +3,7 @@ import {useParams} from 'react-router-dom';
 import {products} from '../../Constants/Data'
 import { ActionItem } from './ActionItem';
 import { ProductDetail } from './ProductDetail';
-import { AppBar, Box, Toolbar, Typography, Button,Divider,theme, styled ,Grid } from '@mui/material'
+import {  Box,  styled ,Grid } from '@mui/material'
 const Component = styled(Box)`
     background : #f2f2f2;
  

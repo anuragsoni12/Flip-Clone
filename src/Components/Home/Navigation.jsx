@@ -1,7 +1,7 @@
-import React from 'react'
-import { AppBar, Box, Toolbar, Typography, styled } from '@mui/material';
+import React from 'react';
+import {  Box,  Typography, styled } from '@mui/material';
 import { navData } from '../../Constants/Data';
-// console.log(navData)
+
 const Component = styled(Box)(({theme})=>({
     display : 'flex',
     // border : '2px solid red',

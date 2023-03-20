@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { AppBar, Box, Toolbar, Typography, styled } from '@mui/material';
+import {  Box,  Typography, styled } from '@mui/material';
 
 const  ShoppingCartBox = styled(Box)`
 display : flex;

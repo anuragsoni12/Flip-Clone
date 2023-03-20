@@ -1,7 +1,7 @@
-import React from 'react'
-import { FirstSlide } from './FirstSlide'
-import { LastCarousel } from './LastCarousel';
-import {  Box,  styled } from '@mui/material'
+import React from 'react';
+import { FirstSlide } from './FirstSlide';
+
+import {  Box,  styled } from '@mui/material';
 
 const Container = styled(Box)`
     width : 100%;
@@ -51,15 +51,3 @@ export const MidSlide = ({products, title ,timer}) => {
 
 
 
-// {
-//     products.map((product)=>(
-//       <Link to={`product/${product.id}`} style={{textDecoration: 'none'}}  >
-//         <Box style={{textAlign : 'center', padding : '25px 15px'}}> 
-//             <CrouselImage  src={product.url} alt="" />
-//             <ProductText style={{fontWeight :'700', color : '#212121', }} >{product.title.shortTitle}</ProductText>
-//             <ProductText style={{color : 'green'}} >{product.discount}</ProductText>
-//             <ProductText style={{color : '#212121', opacity : '0.6'}} >{product.tagline}</ProductText>
-//         </Box>
-//         </Link>
-//     ))
-// } 

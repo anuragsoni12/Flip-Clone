@@ -3,8 +3,8 @@ import './App.css';
 
 import { Header } from './Components/HeaderComponents/Header';
 import { Home } from './Components/Home/Home';
-import { AppBar, Box, Toolbar, Typography, styled } from '@mui/material'
-import { HeaderTemp } from './Template/HeaderTemp';
+import {  Box } from '@mui/material';
+// import { HeaderTemp } from './Template/HeaderTemp';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { DetailView } from './Components/Details/DetailView';
 function App() {

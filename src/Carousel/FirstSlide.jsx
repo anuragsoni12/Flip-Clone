@@ -1,9 +1,9 @@
-import React,{useState , useEffect} from 'react';
+
 import Carousel from 'react-multi-carousel';
 import Countdown from 'react-countdown';
 import { Link } from 'react-router-dom';
 
-import { AppBar, Box, Toolbar, Typography, Button,Divider, styled } from '@mui/material'
+import {  Box, Typography, Button,Divider, styled } from '@mui/material'
 const responsive = {
  
     desktop: {
@@ -128,14 +128,3 @@ export const FirstSlide = ({ products, title,timer}) => {
 }
 
 
-// const [products, setProducts] = useState([]);
-
-// const callApi = async() => {
-//     const response = await fetch('https://fakestoreapi.com/products')
-//     const data = await response.json();
-//     console.log(data.description);
-//     setProducts(data);
-// }
-// useEffect(() => {
-//     callApi();
-// }, [])

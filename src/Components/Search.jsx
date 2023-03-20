@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppBar, Box, InputBase, Typography, styled } from '@mui/material';
+import {  Box, InputBase,  styled } from '@mui/material';
 
 import SearchIcon from '@mui/icons-material/Search';
 const SearchContainer = styled(Box)`

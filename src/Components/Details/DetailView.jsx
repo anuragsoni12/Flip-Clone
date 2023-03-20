@@ -30,7 +30,7 @@ const [detail, setDetail] = useState();
 
 useEffect(()=>{
     setDetail(temp.id);
-},[])
+},[temp.id])
 
   return (
     <div>
